@@ -1,0 +1,132 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@sceneify/core': ^1.0.0-beta.2
+  '@sceneify/sources': ^1.0.0-beta.2
+  typescript: ^4.5.5
+
+dependencies:
+  '@sceneify/core': 1.0.0-beta.2
+  '@sceneify/sources': 1.0.0-beta.2
+
+devDependencies:
+  typescript: 4.5.5
+
+packages:
+
+  /@msgpack/msgpack/2.7.1:
+    resolution: {integrity: sha512-ApwiSL2c9ObewdOE/sqt788P1C5lomBOHyO8nUBCr4ofErBCnYQ003NtJ8lS9OQZc11ximkbmgAZJjB8y6cCdA==}
+    engines: {node: '>= 10'}
+    dev: false
+
+  /@sceneify/core/0.0.0-main-12576eac:
+    resolution: {integrity: sha512-WNshUoaOg4d7QbcWa9+UDWIQlqIKitV67mJEsbOXNfrDQ6w987AbNaZoO9KkCTPvpgHMsIYFzadK/jMo2a8sKw==}
+    engines: {node: '>=12.17.0', npm: '>=6.13.0'}
+    dependencies:
+      next-tick: 1.1.0
+      obs-websocket-js: 5.0.0-alpha.3
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /@sceneify/core/1.0.0-beta.2:
+    resolution: {integrity: sha512-QVjHiU8v9nb+EyZnuWkdKg6JE2S9LPurEH6WBJ/4+qCvBu6aZdT/DFh5bT9obMae8WDkXVO5V4e21wPXmrZCuw==}
+    engines: {node: '>=12.17.0', npm: '>=6.13.0'}
+    dependencies:
+      next-tick: 1.1.0
+      obs-websocket-js: 5.0.0-alpha.3
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /@sceneify/sources/1.0.0-beta.2:
+    resolution: {integrity: sha512-N5TopLoMQALPD3KBiO4PdbJLH2ZdAtBSR6kyA1NNGM7c7GA/XfHL7i9Le2WahATibgZZ4T46F2nTP+0I3L56wQ==}
+    engines: {node: '>=12.17.0', npm: '>=6.13.0'}
+    dependencies:
+      '@sceneify/core': 0.0.0-main-12576eac
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /crypto-js/4.1.1:
+    resolution: {integrity: sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==}
+    dev: false
+
+  /debug/4.3.3:
+    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: false
+
+  /eventemitter3/4.0.7:
+    resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
+    dev: false
+
+  /isomorphic-ws/4.0.1_ws@8.4.2:
+    resolution: {integrity: sha512-BhBvN2MBpWTaSHdWRb/bwdZJ1WaehQ2L1KngkCkfLUGF0mAWAT1sQUQacEmQ0jXkFw/czDXPNQSL5u2/Krsz1w==}
+    peerDependencies:
+      ws: '*'
+    dependencies:
+      ws: 8.4.2
+    dev: false
+
+  /ms/2.1.2:
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
+    dev: false
+
+  /next-tick/1.1.0:
+    resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
+    dev: false
+
+  /obs-websocket-js/5.0.0-alpha.3:
+    resolution: {integrity: sha512-UathHNRAY6VKhsvX51agNVHoIrZE4/9xRgchhe1RkyAv25pj1ebE5LZD6tj6vfUyyXj61W54wL9+r3Do+2BCEw==}
+    engines: {node: '>12.0'}
+    dependencies:
+      '@msgpack/msgpack': 2.7.1
+      crypto-js: 4.1.1
+      debug: 4.3.3
+      eventemitter3: 4.0.7
+      isomorphic-ws: 4.0.1_ws@8.4.2
+      type-fest: 2.11.1
+      ws: 8.4.2
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /type-fest/2.11.1:
+    resolution: {integrity: sha512-fPcV5KLAqFfmhHobtAUwEpbpfYhVF7wSLVgbG/7mIGe/Pete7ky/bPAPRkzbWdrj0/EkswFAAR2feJCgigkUKg==}
+    engines: {node: '>=12.20'}
+    dev: false
+
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /ws/8.4.2:
+    resolution: {integrity: sha512-Kbk4Nxyq7/ZWqr/tarI9yIt/+iNNFOjBXEWgTb4ydaNHBNGgvf2QHbS9fdfsndfjFlFwEd4Al+mw83YkaD10ZA==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false

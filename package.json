@@ -1,0 +1,19 @@
+{
+  "name": "obs-code",
+  "version": "1.0.0",
+  "description": "none of this actually matters",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "butt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sceneify/core": "^1.0.0-beta.2",
+    "@sceneify/sources": "^1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
